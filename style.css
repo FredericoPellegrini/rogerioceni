@@ -63,7 +63,7 @@ body{
     margin-left: 12.5%;
     margin-top: 20px;
     border-radius: 45px;
-    height: 550px;
+    height: 740px;
     width: 75%;
     font-family: 'Tektur', cursive;
     background-image: linear-gradient(to bottom,#343541, #202123);
@@ -75,4 +75,17 @@ body{
     text-align: center;
     color: #FFFFFF;
     font-family: 'Tektur', cursive;
+}
+
+.conteudo{
+    display: flex;
+}
+
+.conteudo ul li{
+    font-size: 19px;
+    font-weight: bold;
+    color: #FFFFFF;
+    font-family: 'Righteous', cursive;
+    flex-wrap: wrap;
+    line-height: 45px;
 }
