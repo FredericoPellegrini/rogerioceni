@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.letreiro h1{
+    color: black;
+    font-size: 130px;
+    margin-left: 30px;
+    text-shadow: -1px -1px 4px #ffffff, 1px -1px 4px #ffffff, -1px 1px 4px #ffffff, 1px 1px 4px #ffffff;
+
+}
+
+.pala{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin-left: 12.5%;
+    margin-top: 80px;
+    background-color: bisque;
+    border-radius: 45px;
+    height: 550px;
+    width: 75%;
+    font-family: 'Tektur', cursive;
+    background-image: linear-gradient(to bottom,#E24515, #651A04);
+}
+
+.banner img{
+    margin-left: 200px;
+}
+
+.resume{
+    font-family: 'Righteous', cursive;
+    color: white;
+}
+
+.resume p{
+    font-size: 35px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 55px;
+}
+
+.corte{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid rgb(185, 185, 185);
+}
+
+.timeline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12.5%;
+    margin-top: 20px;
+    border-radius: 45px;
+    height: 550px;
+    width: 75%;
+    font-family: 'Tektur', cursive;
+    background-image: linear-gradient(to bottom,#343541, #202123);
+}
+
+.timeline h1{
+    font-size: 50px;
+    margin-top: 15px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Tektur', cursive;
+}
