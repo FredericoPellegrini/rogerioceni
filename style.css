@@ -89,3 +89,32 @@ body{
     flex-wrap: wrap;
     line-height: 45px;
 }
+
+.final{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 12.5%;
+    margin-top: 20px;
+    border-radius: 45px;
+    height: 150px;
+    width: 75%;
+    font-family: 'Righteous', cursive;
+    background-image: linear-gradient(to bottom,#FFFFFF, #f3f3f3);
+    margin-bottom: 55px;
+}
+
+.final p{
+    font-size: 22px;
+    line-height: 45px;
+    padding-top: 25px;
+}
+
+.final a{
+    text-decoration: none;
+    color: red;
+}
+
+.final a:hover{
+    color:#651A04;
+}
